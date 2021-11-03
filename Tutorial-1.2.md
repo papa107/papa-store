@@ -9,6 +9,7 @@ Before you begin
 If you're new to Google Cloud, create an account to evaluate how our products perform in real-world scenarios. New customers also get $300 in free credits to run, test, and deploy workloads.
 In the Google Cloud Console, on the project selector page, select or create a Google Cloud project.
 Make sure that billing is enabled for your Cloud project. 
+
 Step 1. Project setup
 GCP organises resources into projects, which collect all of the related resources for a single application in one place.
 Begin by creating a new project or selecting an existing project for this tutorial.
@@ -44,7 +45,7 @@ Exploring your configuration file
 App Engine uses YAML files to specify a deployment's configuration. The app.yaml files contain information about your application, like the runtime environment, URL handlers and a lot more.
 Enter the following command to view your configuration file:
 
-cat app.yaml
+<walkthrough-editor-open-file filePath="/ัapp.yaml"<app.yaml>walkthrough-editor-open-file>
 
 
 Step 4. Testing your app
