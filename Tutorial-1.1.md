@@ -1,7 +1,10 @@
+#Tutorial 1.1 - Creating an HTTP Trigger using Cloud Functions
+In this tutorial you will learn how to create an HTTP trigger and then run it in 
+Google Cloud Platform's serverless Cloud Functions platform.
 
-Step 1
+##Step 1
 
-Create an HTTP function
+###Create an HTTP function
 
 Learn how to:
 
