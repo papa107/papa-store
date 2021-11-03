@@ -1,10 +1,10 @@
-#Tutorial 1.1 - Creating an HTTP Trigger using Cloud Functions
+# Tutorial 1.1 - Creating an HTTP Trigger using Cloud Functions
 In this tutorial you will learn how to create an HTTP trigger and then run it in 
 Google Cloud Platform's serverless Cloud Functions platform.
 
-##Step 1
+## Step 1
 
-###Create an HTTP function
+### Create an HTTP function
 
 Learn how to:
 
@@ -34,7 +34,7 @@ that is triggered by an HTTP request,
 
 **click Next**
 
-##Step 2 Create and deploy a function
+## Step 2 Create and deploy a function
 
 In the Cloud Console navigation menu, click Cloud Functions.
 
@@ -42,7 +42,7 @@ You can see where it is by clicking the following button:
 
 <walkthrough-spotlight-pointer spotlightId="Cloud Functions">LINK_TEXT</walkthrough-spotlight-pointer> 
 
-###On the Functions page, click Create function. Show me
+### On the Functions page, click Create function. Show me
 
 If your project already contains functions, click Create function instead.
 
@@ -70,7 +70,7 @@ Your new function is listed on the Functions page. When the deployment is comple
 
 To learn how to test the deployed function, **click Next.**
 
-##Step 3 Test the function
+## Step 3 Test the function
 
 On the Functions page, look in the Name column for the cloud-source-repositories-test function you created.
 
