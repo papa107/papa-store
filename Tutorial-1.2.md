@@ -39,7 +39,7 @@ App Engine uses YAML files to specify a deployment's configuration. The app.yaml
 
 Enter the following command to view your configuration file:
 
-<walkthrough-editor-open-file filePath="/app.yaml"<app.yaml>walkthrough-editor-open-file>
+<walkthrough-editor-open-file filePath="/home/alasdair_gilchrist/nodejs-docs-samples/appengine/hello-world/standard/app.yaml"<app.yaml>walkthrough-editor-open-file>
 
 
 Step 4. Testing your app
@@ -89,4 +89,4 @@ gcloud app deploy
 **Visit your app**
 Click on the url that is returned in the output. The default URL of your app is a subdomain on appspot.com that starts with your project's ID: 
 
-#Congratulations! Your app has been deployed. 
+## Congratulations! Your app has been deployed. 
