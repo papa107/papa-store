@@ -20,6 +20,7 @@ View and navigate through your service logs.
 For this tutorial, you'll be using the Cloud Shell Editor as your environment for creating your service. The editor comes preloaded with the tools needed for Cloud development. To create your service:
 
 **Launch the Cloud Code menu from the status bar**
+<walkthrough-spotlight-pointer spotlightId="cloud-code-status-bar">Cloud Code Button</walkthrough-spotlight-pointer>
 
 **Select New Application**
 
