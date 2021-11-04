@@ -21,8 +21,7 @@ Select a project, or create a new one.
 
 <walkthrough-project-setup></walkthrough-project-setup>
 
-The necessary APIs have been enabled
-<walkthrough-enable-apis apis="Cloud Build API, Cloud Function API"></walkthrough-enable-apis>
+<walkthrough-enable-apis apis="CloudBuildAPI,CloudFunctionAPI"></walkthrough-enable-apis>
 
 When you deploy your code, Cloud Build builds the code into a container image
  and Cloud Functions accesses this image when it needs to execute your function.
@@ -30,7 +29,7 @@ When you deploy your code, Cloud Build builds the code into a container image
 Now that you are all set up let's go learn how to create a function 
 that is triggered by an HTTP request, 
 
-**click Next**
+**Click Next**
 
 ## Step 2 Create and deploy a function
 
