@@ -21,14 +21,15 @@ View and navigate through your service logs.
 
 For this tutorial, you'll be using the Cloud Shell Editor as your environment for creating your service. The editor comes preloaded with the tools needed for Cloud development. To create your service:
 
-**Launch the Cloud Code menu from the status bar**
-<walkthrough-spotlight-pointer spotlightId="cloud-code-status-bar">Cloud Code Button</walkthrough-spotlight-pointer>
+1. **Launch the Cloud Editor menu from the status bar**
 
-**Select New Application**
+2. Click on the Vloud Code buttom on the lower tool bar. <walkthrough-spotlight-pointer spotlightId="cloud-code-status-bar">Cloud Code Button</walkthrough-spotlight-pointer>
 
-**Select the Cloud Run application for type of sample app**
+3. When Cloud Code opens, **Select New Application**
 
-From the list of sample Cloud Run services, **select the Node.js: Cloud Run option**
+4. **Select the Cloud Run application for type of sample app**
+
+5. From the list of sample Cloud Run services, **select the Node.js: Cloud Run option**
 
 Select a folder for your service location and click **Create New Application**
 
