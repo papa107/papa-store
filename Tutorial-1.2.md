@@ -87,4 +87,4 @@ gcloud app deploy
 **Visit your app**
 Click on the url that is returned in the output. The default URL of your app is a subdomain on appspot.com that starts with your project's ID: 
 
-## Congratulations! Your app has been deployed. 
+**Congratulations!** Your app has been deployed. 
