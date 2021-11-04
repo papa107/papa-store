@@ -21,8 +21,11 @@ Select a project, or create a new one.
 
 <walkthrough-project-setup></walkthrough-project-setup>
 
-<walkthrough-enable-apis apis="CloudBuildAPI,CloudFunctionAPI"></walkthrough-enable-apis>
-
+Now enable the Cloud Build and Cloud Functions API by entering at the CLI:
+```
+gcloud services enable cloudbuild.googleapis.com
+gcloud services enable cloudfunction.googleapis.com
+```
 When you deploy your code, Cloud Build builds the code into a container image
  and Cloud Functions accesses this image when it needs to execute your function.
 
