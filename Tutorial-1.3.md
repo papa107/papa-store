@@ -8,6 +8,8 @@ You will learn how to:
 
 Create a sample Hello World Cloud Run service.
 
+Launch the Cloud Editor click on the Editor Icon <walkthrough-ICON_NAME>cloud-shell-editor-icon</walkthrough-ICON_NAME>
+
 Build/deploy your service to Cloud Run.
 
 Edit and redeploy your service.
