@@ -23,7 +23,11 @@ For this tutorial, you'll be using the Cloud Shell Editor as your environment fo
 
 1. **Launch the Cloud Editor menu from the status bar**
 
-2. Click on the Vloud Code buttom on the lower tool bar. <walkthrough-spotlight-pointer spotlightId="cloud-code-status-bar">Cloud Code Button</walkthrough-spotlight-pointer>
+2. Click on the Cloud Code buttom on the lower tool bar. 
+<walkthrough-spotlight-pointer
+    spotlightId="cloud-code-status-bar">
+    spotlight on the Cloud Code button
+</walkthrough-spotlight-pointer>
 
 3. When Cloud Code opens, **Select New Application**
 
