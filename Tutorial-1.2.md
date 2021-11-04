@@ -5,6 +5,7 @@ In this interactive tutorial we will learn how to deploy and run an app on App E
 GCP organises resources into projects, which collect all of the related resources for a single application in one place.
 Begin by creating a new project or selecting an existing project for this tutorial.
 <walkthrough-project-setup></walkthrough-project-setup>
+Once you select your project_ID proceed and Click Start.
 
 ## Step 2. Using Cloud Shell
 
@@ -25,7 +26,7 @@ Then switch to the tutorial directory:
 cd  nodejs-docs-samples/appengine/hello-world/standard
 ```
 
-Step 3. Configuring your deployment
+## Step 3. Configuring your deployment
 As you are now in the directory you just created to hold the cloned sample code we'll take the opportunity to look at the files that configure your application.
 
 Enter the following command to view your application code:
@@ -36,9 +37,9 @@ cat app.js
 Exploring your configuration file
 
 App Engine uses YAML files to specify a deployment's configuration. The app.yaml files contain information about your application, like the runtime environment, URL handlers and a lot more.
-Click here: `walkthrough editor-open-file “/app.yaml” “Open app.yaml”'
+Click here: `walkthrough editor-open-file “app.yaml” “Open app.yaml”'
 
-Step 4. Testing your app
+## Step 4. Testing your app
 
 **Test your app on Cloud Shell**
 Cloud Shell lets you test your app before deploying to make sure that it's running as intended, just like debugging on your local machine.
