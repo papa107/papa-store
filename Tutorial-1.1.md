@@ -38,9 +38,9 @@ In the Cloud Console navigation menu, click Cloud Functions.
 
 You can see where it is by clicking the following button:
 
-<walkthrough-spotlight-pointer spotlightId="Cloud Functions">Find Function tab here</walkthrough-spotlight-pointer> 
+<walkthrough-spotlight-pointer spotlightId="console-nav-menu">Find Function tab here</walkthrough-spotlight-pointer> 
 
-### On the Functions page, click Create function. Show me
+### On the Functions page, click Create function.
 
 If your project already contains functions, click Create function instead.
 
