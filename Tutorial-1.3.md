@@ -47,6 +47,7 @@ If you don't already have a Google Cloud project, you'll need to create a new on
 If prompted, **Authorize Cloud Shell** to make Google Cloud API calls.
 
 When prompted, select your Google Cloud project.
+<walkthrough-project-setup></walkthrough-project-setup>
 
 If prompted, enable your Cloud Run API by clicking Enable API.
 
