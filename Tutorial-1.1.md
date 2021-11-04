@@ -20,11 +20,9 @@ Enable Cloud Functions and Cloud Build in a project
 Select a project, or create a new one.
 
 <walkthrough-project-setup></walkthrough-project-setup>
-My Project xxxxx
 
 The necessary APIs have been enabled
-<walkthrough-enable-apis apis="Cloud Build API"></walkthrough-enable-apis>
-<walkthrough-enable-apis apis="Cloud Functions API"></walkthrough-enable-apis>
+<walkthrough-enable-apis apis="Cloud Build API, Cloud Function API"></walkthrough-enable-apis>
 
 When you deploy your code, Cloud Build builds the code into a container image
  and Cloud Functions accesses this image when it needs to execute your function.
@@ -40,7 +38,7 @@ In the Cloud Console navigation menu, click Cloud Functions.
 
 You can see where it is by clicking the following button:
 
-<walkthrough-spotlight-pointer spotlightId="Cloud Functions">LINK_TEXT</walkthrough-spotlight-pointer> 
+<walkthrough-spotlight-pointer spotlightId="Cloud Functions">Find Function tab here</walkthrough-spotlight-pointer> 
 
 ### On the Functions page, click Create function. Show me
 
