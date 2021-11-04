@@ -37,8 +37,11 @@ cat app.js
 Exploring your configuration file
 
 App Engine uses YAML files to specify a deployment's configuration. The app.yaml files contain information about your application, like the runtime environment, URL handlers and a lot more.
-'Click here: <walkthrough-editor-open-file filePath="/home/alasdair_gilchrist/nodejs-docs-samples/appengine/hello-world/standard/app.yaml">
-</walkthrough-editor-open-file> to open app.yaml'
+<walkthrough-editor-open-file
+    filePath="/home/alasdair_gilchrist/nodejs-docs-samples/appengine/hello-world/standard/app.yaml">
+    open app.yaml for editing
+</walkthrough-editor-open-file>
+
 
 ## Step 4. Testing your app
 
