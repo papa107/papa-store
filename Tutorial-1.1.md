@@ -16,7 +16,7 @@ Learn how to:
 
 4. View the logs for a history of the function's actions.
 
-Enable Cloud Functions and Cloud Build in a project
+To enable Cloud Functions and Cloud Build you need to have a project
 Select a project, or create a new one.
 
 <walkthrough-project-setup></walkthrough-project-setup>
