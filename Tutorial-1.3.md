@@ -15,7 +15,7 @@ Edit and redeploy your service.
 View and navigate through your service logs.
 **Click Start to get going**
 
-## Step 1 Create your web service
+## Step 1. Create your web service
 
 For this tutorial, you'll be using the Cloud Shell Editor as your environment for creating your service. The editor comes preloaded with the tools needed for Cloud development. To create your service:
 
