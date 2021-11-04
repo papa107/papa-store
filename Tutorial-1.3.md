@@ -108,5 +108,5 @@ To view the newly generated logs within the Log Viewer, click on the
  Logs refresh button.
 
 🎉 Success
-## Congratulations! You have successfully created and deployed your first 
+**Congratulations!** You have successfully created and deployed your first 
 serverless service on Cloud Run!
