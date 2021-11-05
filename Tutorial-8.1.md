@@ -1,4 +1,4 @@
-# Interactive Tutorial 9.1 
+# Interactive Tutorial 8.1 
 **Getting Familiar with Cloud Pub/Sub**
 
 Google Cloud Pub/Sub is a messaging service for exchanging event data among applications and services. A producer of data publishes messages to a Cloud Pub/Sub topic. A consumer creates a subscription to that topic.
