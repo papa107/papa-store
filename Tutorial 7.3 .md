@@ -117,6 +117,7 @@ If you consider the service.yml contents you see that the service definition is 
 * it has some port information that declares how to reach the application.
 
 ## 2.0 Deploy the hello microservices to Kubernetes cluster
+
 ```
 kubectl apply -f deployments/hello.yaml -f services/hello.yaml
 ```
@@ -127,7 +128,7 @@ You can run several deployments at the same time by just adding another ‘-f’
 This application uses an Nginx server, which will act as your front end. But first we will need to create a service for it using the same template for the hello service. You give it a name, a selector and define the ports.
 
 When you have finished viewing the code run the command:
-``
+```
 kubectl apply -f deployments/frontend.yaml -f services/frontend.yaml
 ```
 ## 2.2 Examine the rest of the Frontend Configuration File
