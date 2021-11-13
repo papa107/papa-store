@@ -148,4 +148,4 @@ You can also call your service from Cloud Shell:
 ```
 curl $SERVICE_URL?who=me
 ```
-** Congratulations!** 
+**Congratulations!** 
