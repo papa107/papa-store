@@ -1,4 +1,4 @@
-# Interactive Tutorial 6.1 
+# Interactive Tutorial 7.1 
 ## Creating a GKE Cluster
 In this introductory tutorial we will explore Google Kubernetes Engine (GKE) and learn hands-on how it provides a managed environment for deploying, managing, and scaling your containerized applications using Google Cloud infrastructure. 
 
