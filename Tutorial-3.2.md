@@ -30,7 +30,7 @@ CMD ["/tutorial.sh"]
 chmod +x tutorial.sh
 ```
 Step 2. Create a Docker repository in Artifact Registry
-1. **Create a new Docker repository** named tutorial-docker-repo in the location us-central1 with the description "Docker repository":
+1. **Create a new Docker repository** named tutorial-docker-repo in the location us-central1 with the description "Docker repository" is using windows remove the '\' in the command:
 ```
 gcloud artifacts repositories create tutorial-docker-repo --repository-format=docker \  --location=us-central1 --description="Docker repository"
 ```
