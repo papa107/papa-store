@@ -20,14 +20,35 @@ In this step you will create a Python script that prints Hello, World! in a brow
 1. Go to your hello-world repository.
 Using a text editor, **create a file named main.py**, and then paste the following code:
 ```
-add text
+#!/usr/bin/env python
+
+import webapp2
+
+class MainHandler(webapp2.RequestHandler):
+    def get(self):
+        self.response.write('Hello, World!')
+
+app = webapp2.WSGIApplication([
+    ('/', MainHandler)
+], debug=True)
+
 ```
 ## Step 4. Create an app.yaml file
 Create an app.yaml file that contains the configuration information you need to deploy your code to App Engine.
 1. Go to your hello-world repository.
 2. Using a text editor, **create a file named app.yaml**, and then paste the following configuration information:
 ```
-add text
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: .*
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: "2.5.2"
 ```
 ## Step 5. Push to Cloud Source Repositories
 Push the files you just created into Cloud Source Repositories.
@@ -85,6 +106,17 @@ The browser displays the message Hello, World!
 ## Step 8. Update your app
 In a terminal window, **use a text editor to update the main.py** file by pasting the following code:
 ```
+#!/usr/bin/env python
+
+import webapp2
+
+class MainHandler(webapp2.RequestHandler):
+    def get(self):
+        self.response.write('Goodbye, Moon!')
+
+app = webapp2.WSGIApplication([
+    ('/', MainHandler)
+], debug=True)
 ```
 Add the file so Git can commit it:
 ```
