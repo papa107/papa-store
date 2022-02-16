@@ -73,7 +73,11 @@ gcloud builds submit --config cloudbuild.yaml
 ```
 When the build is complete, you will see an output similar to the following:
 ```
-SUCCESS
+DONE
+------------------------------------------------------------------------------------------------------------------------------------
+ID                                    CREATE_TIME                DURATION  SOURCE   IMAGES     STATUS
+545cb89c-f7a4-4652-8f63-579ac974be2e  2020-11-05T18:16:04+00:00  16S   SUCCESS
+
 ```
 **Congratulations!**
 You've just built tutorial-image using the build config file and pushed the image to Artifact Registry.
